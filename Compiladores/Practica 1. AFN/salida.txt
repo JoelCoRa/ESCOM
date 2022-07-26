@@ -1,0 +1,14 @@
+**** Caminos Posibles y Manejo de Errores ****
+
+Camino: 10,10,10,E,E,E
+La cadena es: INVÁLIDA
+
+Camino: 10,10,11,10,E,E
+La cadena es: INVÁLIDA
+
+Camino: 10,10,11,12,E,E
+La cadena es: INVÁLIDA
+
+Camino: 10,11,E,E,E,E
+La cadena es: INVÁLIDA
+

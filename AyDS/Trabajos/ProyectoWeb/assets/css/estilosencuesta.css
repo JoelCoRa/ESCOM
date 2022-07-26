@@ -1,0 +1,130 @@
+:root {
+    --colorTextos: #00000067;
+}
+
+*,
+::before,
+::after {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../imagenes/blue_diagonal_geometric_stripe_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    height: 150px;
+    overflow: hidden;
+}
+
+#Escudo{
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.formulario{
+    margin-top: -120px;
+    font-family: 'Roboto';
+    height: 2750px;             /*Aqui para el tamaño de la pagina*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(16, 83, 138);
+}
+
+#instrucciones{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(16, 83, 138);
+}
+
+p{
+    text-align: left;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+
+form{
+    background-color: #ffff;
+    padding: 20px 60px ;
+    box-shadow: 0 0 10px 0 rgba(22, 22, 63, 0.8); 
+    border-radius: 10px;
+    width: 1150px;                          /*Aqui para el tamaño del formulario*/
+    height: 2650px;
+}
+
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+.tabla{
+    margin-top: 925px;                    /*Aqui para la posición de la tabla*/
+    font-family: 'Roboto';
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    margin-top: 50px;
+    background-color: #ffff;
+    padding: 20px 60px ;
+    border-radius: 0px;
+    width: 800px;
+}
+
+.table{
+    width: 100%;
+    margin: auto;
+}
+
+button{
+    font-family: 'roboto';
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000046, #1CB5E0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000046, #1CB5E0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    display: inline-block;
+    width: 50%;
+    margin: 10px auto;
+    color: #ffff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;         /*Aqui para posicionar el boton*/
+    top: 2655px;
+    left: 377px;
+}
+
+button:hover{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6190E8, #A7BFE8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6190E8, #A7BFE8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media  screen and (max-width: 500px){
+    form{
+         width: 80%;
+        }
+}
+    

@@ -1,0 +1,54 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+
+
+package ctrl_LCD is
+
+--Se crea un arreglo
+type arreglo is array(0 to 15) of std_logic_vector(7 downto 0); 
+
+
+--Se declaran los caracteres codificados
+constant msg1: arreglo := (X"FE",X"FE",X"FE",X"53",X"55",X"4d",X"41",X"FE",X"FE",X"FE") --Suma
+
+constant msg2: arreglo := (X"FE",X"FE",X"FE",X"52",X"45",X"53",X"54",X"41",X"FE",X"FE",X"FE") --Resta
+
+constant msg3: arreglo := (X"FE",X"FE",X"FE",X"50",X"52",X"4f",X"44",X"",X"55",X"43",X"54",X"4f",X"FE",X"FE",X"FE") --Multi
+
+constant msg4: arreglo := (X"FE",X"FE",X"FE",X"50",X"4f",X"54",X"45",X"4e",X"43",X"49",X"41",X"FE",X"FE",X"FE") --Potencia
+
+constant msg5: arreglo := (X"FE",X"FE",X"FE",X"41",X"4e",X"44",X"FE",X"FE",X"FE") --AND
+
+constant msg6: arreglo := (X"FE",X"FE",X"FE",X"4f",X"52",X"FE",X"FE",X"FE") --OR
+
+constant msg7: arreglo := (X"FE",X"FE",X"FE",X"4e",X"52",X"FE",X"41",X"F3",X"FE",X"FE",X"FE") --NOT A
+
+constant msg8: arreglo := (X"FE",X"FE",X"FE",X"41",X"FE",X"4e",X"4f",X"52",X"FE",X"42",X"F3",X"FE",X"FE") --A NOR B
+
+constant msg9: arreglo := (X"FE",X"FE",X"FE",X"4e",X"41",X"4e",X"44",X"F3",X"FE",X"FE") --A NAND B
+
+constant msg10: arreglo := (X"FE",X"FE",X"FE",X"58",X"4f",X"52",X"FE",X"FE") --XOR
+
+constant msg11: arreglo := (X"FE",X"FE",X"FE",X"58",X"4e",X"4f",X"52",X"FE",X"FE") --XNOR
+
+constant msg12: arreglo := (X"FE",X"FE",X"FE",X"43",X"41",X"52",X"47",X"41",X"FE",X"41",X"FE",X"FE") --A CARGA EN B
+
+constant msg13: arreglo := (X"FE",X"FE",X"FE",X"43",X"41",X"52",X"47",X"41",X"FE",X"42",X"FE",X"FE") --B CARGA EN A
+
+--Pendiente
+constant msg14: arreglo := (X"FE",X"FE",X"FE",X"43",X"41",X"52",X"47",X"41",X"FE",X"41",X"FE",X"FE") --?
+
+--Pendiente
+constant msg15: arreglo := (X"FE",X"FE",X"FE",X"43",X"41",X"52",X"47",X"41",X"FE",X"41",X"FE",X"FE") --?
+
+constant msg16: arreglo := (X"FE",X"FE",X"FE",X"41",X"43",X"55",X"4d",X"55",X"4c",X"41",X"FE",X"FE") --?
+
+constant msg17: arreglo := (X"FE",X"FE",X"FE",X"44",X"45",X"43",X"52",X"45",X"4d",X"45",X"4e",X"54",X"41",X"FE",X"FE") --?
+
+constant msg19: arreglo := (X"FE",X"FE",X"FE",X"43",X"4f",X"4d",X"50",X"41",X"52",X"41",X"FE",X"41",X"FE",X"FE") --?
+
+constant msg19: arreglo := (X"FE",X"FE",X"FE",X"43",X"4f",X"4d",X"50",X"41",X"52",X"41",X"FE",X"42",X"FE",X"FE") --?
+
+constant msg20: arreglo := (X"FE",X"FE",X"FE",X"53",X"49",X"47",X"4e",X"4f",X"52",X"FE",X"FE") --SIGNO
