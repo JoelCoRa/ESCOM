@@ -1,0 +1,8 @@
+ENTITY siguelineas IS
+    PORT (
+	si : in std_logic  ; 
+	sd : in std_logic  ; 
+	mi : inout std_logic  ; 
+	md : inout std_logic 
+    ) ;
+END siguelineas ;

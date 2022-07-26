@@ -1,0 +1,6 @@
+MESSAGE "File: E:\Siguelineas\Siguelineas.vhd" 
+MESSAGE "Compile Entity "siguelineas"" 
+MESSAGE "Compile Architecture "Asiguelineas" of Entity "siguelineas"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   siguelineas" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]" 

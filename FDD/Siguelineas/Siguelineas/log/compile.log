@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\Siguelineas\Siguelineas.vhd
+ Compile Entity "siguelineas"
+ Compile Architecture "Asiguelineas" of Entity "siguelineas"
+ Top-Level unit detected
+ Entity  =>   siguelineas
+ Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]

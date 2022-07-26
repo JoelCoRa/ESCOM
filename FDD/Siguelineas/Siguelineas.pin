@@ -1,0 +1,10 @@
+Cypress Package: palc22v10d-25pc  PinOut File: Siguelineas.pin
+
+This file was created on 03/10/2021 at 21:48:59 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+si in <> Enabled Normal 1 <> [Auto] 
+sd in <> Enabled Normal 2 <> [Auto] 
+mi out <> Enabled Normal 14 <> [Auto] 
+md out <> Enabled Normal 23 <> [Auto] 

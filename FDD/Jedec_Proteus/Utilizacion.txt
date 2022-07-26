@@ -1,0 +1,8 @@
+El ejecutable es para poder usar un archivo de galaxy, en proteus.
+Solo escribe el nombre del archivo ".jed"
+
+Ejemplo: "Practica1.jed"
+
+Dale Enter
+
+Listo :D
