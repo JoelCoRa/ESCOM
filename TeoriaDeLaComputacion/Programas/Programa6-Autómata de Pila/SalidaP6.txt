@@ -1,0 +1,16 @@
+
+***Evaluación del Autómata...***
+A través de descripciones instantáneas(IDs)
+
+ Cadena a evaluar: 0100101
+ ID inicial: 
+    (q,0100101,z0)
+
+ 1.-(q,100101,z0['X'])
+ 2.-(p,00101,z0[])
+ 3.-(q,0101,z0['X'])
+ 4.-(q,101,z0['X', 'X'])
+ 5.-(p,01,z0['X'])
+ 6.-(q,1,z0['X', 'X'])
+ 7.-(f,e,z0['X'])
+Cadena Rechazada

@@ -1,0 +1,14 @@
+Cypress Package: palc22v10d-15pc  PinOut File: escenario.pin
+
+This file was created on 12/16/2021 at 21:26:12 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [User] 
+output(0) out <> Enabled Normal 17 <> [User] 
+output(1) out <> Enabled Normal 18 <> [User] 
+output(2) out <> Enabled Normal 19 <> [User] 
+output(3) out <> Enabled Normal 20 <> [User] 
+output(4) out <> Enabled Normal 21 <> [User] 
+output(5) out <> Enabled Normal 22 <> [User] 
+output(6) out <> Enabled Normal 23 <> [User] 

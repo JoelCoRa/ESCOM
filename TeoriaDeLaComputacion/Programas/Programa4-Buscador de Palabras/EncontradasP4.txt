@@ -1,0 +1,23 @@
+*** Palabras Encontradas en la cadena introducida ***
+
+Cantidad de Web's encontradas: 2
+En las posiciónes:  0 4 
+
+Cantidad de WebPage's encontradas: 0
+No hay elementos
+
+Cantidad de WebSite's encontradas: 0
+No hay elementos
+
+Cantidad de WebMaster's encontradas: 1
+En la posición:  4 
+
+Cantidad de WevHome's encontradas: 0
+No hay elementos
+
+Cantidad de Ebay's encontradas: 1
+En la posición:  14 
+
+Cantidad de Coin's encontradas: 0
+No hay elementos
+

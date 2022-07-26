@@ -1,0 +1,7 @@
+ENTITY escenario IS
+    PORT (
+	clk : in std_logic  ; 
+	output : inout std_logic_vector (6 downto 0) ; 
+	reset : in std_logic 
+    ) ;
+END escenario ;

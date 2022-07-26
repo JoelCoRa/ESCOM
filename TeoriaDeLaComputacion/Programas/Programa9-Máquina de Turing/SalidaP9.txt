@@ -1,0 +1,6 @@
+**En este archivo se encuentran las descripciones instantáneas(IDs) de la Máquina de Turing.**
+
+La cadena a evaluar es:   ['a', '-', 'X', '|', 'a', '*', '|', 'X', '*', 'a']
+
+Caracter analizado: a
+Cadena Rechazada

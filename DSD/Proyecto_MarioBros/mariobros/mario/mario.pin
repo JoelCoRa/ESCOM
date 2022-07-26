@@ -1,0 +1,11 @@
+Cypress Package: palc22v10d-25pc  PinOut File: mario.pin
+
+This file was created on 12/17/2021 at 00:26:12 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [User] 
+sw in <> Enabled Normal 2 <> [User] 
+q(0) out <> Enabled Normal 21 <> [User] 
+q(1) out <> Enabled Normal 22 <> [User] 
+q(2) out <> Enabled Normal 23 <> [User] 

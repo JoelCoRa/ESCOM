@@ -1,0 +1,99 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{url}
+
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			{\huge\textbf{Instituto Politécnico Nacional}}\\
+			\vspace{7mm}
+			{\huge\textbf{Escuela Superior de Cómputo}}\\			
+			\begin{figure}[h]
+				\centering
+				\includegraphics[height = 6cm]{logoEscom.png}
+			\end{figure}	
+			\vspace{1cm}
+			{\huge\textbf{Programa 1: Universo}}
+			\par\vspace{2cm}
+			\large\textbf{Autor: Colín Ramiro Joel}
+			\par\vspace{1cm}
+			{\large\textbf{Materia: Teoría de la Computación}}
+			\par\vspace{1cm}
+			{\large\textbf{Grupo: 4CM2}}
+			\par\vspace{1cm}
+			{\large\textbf{Profesor: Juarez Martínez Gemaro}}
+			\par\vspace{1cm}
+			{\large\textbf{Fecha de entrega: {\huge{12 de Octubre 2021}}}}
+			\par\vspace{3cm}
+			\end{center}
+	\end{titlepage}	
+	\section*{Instrucciones}
+	Programar el universo de las cadenas binarias $(\Sigma^n)$. Dada una {\bf n} que introduzca el usuario o que el programa lo determine automáticamente. El rango de {\bf n} debe de estar en el interválo de [0, 1000].
+	\begin{enumerate}
+		\item El programa debe de preguntar si quiere calcular otra {\bf n} o no y salir hasta que se le especifique. 
+		\item La salida debe ser expresada en notación de conjunto, debe ir a un archivo de texto.
+		\item Del archivo de salida, graficar el número de 1s de cada cadena. El eje de las "x" representan la cadena y el eje de las "y" el número de 1s que tiene esa cadena. Específicamente en el reporte, calcular y graficar cuando n=25.
+		\item En este reporte debe de estar también el código de la implementación.
+	\end{enumerate}	
+
+	\section*{Desarrollo}
+ 	Este Programa se realizó através del lenguaje de programación {\bf Python}.
+ 	Para comenzzaar, creamos un menú principal, para la selección de funciomaniento del programa. Como preeviamente en la sección de intsrucciones se indica, el programa funciona tanto de manera manual(opción 1) como de manera automática(opción 2), además de que tiene una tercera opción la cuál es para fianlizar la ejecución de dicho programa. 
+ 	El usuario mediante la entrada de teclado puede seleccionar cualquiera de las 3 opciones, en el caso de que el usario digite un caracter no considerado en el menú, le aparece una leyenda que le menciona: {\it "Opción inválida, Vuelva a intentar"}.
+ 	Para su realización, recurri al planteamiento de 4 funciones:
+ 	\begin{enumerate}
+ 		\item {\bf permutaciones}.- Recibe 2 argumentos fundamentales, para su funcionamiento que son la cadena y el tamaño de la cadena. 
+ 		La actividad que realiza esta función es que dada una cadena preeviamente establecida como el primer argumento, va a ir permutando los caracteres de la cadena, todo esto hasta que el ciclo llegue al tamaño máximo de la cadena, que esta definido por el segundo argumento. 		
+		\centering
+	 	\includegraphics[width = 10cm]{funPerm.jpg}
+	 		
+ 		\vspace{3cm}
+ 		
+ 		\item {\bf calcManual}.- Como su nombre lo implica, esta función realiza el cálculo manual solicitado preeviamente en las instrucciones. Recibe únicamnete 1 argumento que es el valor de la n preeviamente definido por el usuario mediante la entrada de teclado. 
+ 		Dentro de esta función se manda a llamar a la función anterior {\bf (permutaciones)} y lo que realiza es que imprime en un archivo txt llamado "SalidaManual.txt". Posterior a su escritura en el archivo txt, se abre nuevamente el archivo para su lectura y para el conteo de todas las ocurrencias del caracter '1'. Esto con la finalidad de observar la cantidad de 1s en la cadena final y proceder a su graficación, esta graficación se lleva a cabo mediante la llamada de la función {\bf grafica}, que posteriormente se va a definir. 		
+ 		\centering
+ 		\includegraphics[width = 10cm]{funCalcManual.jpg}
+ 
+ 		\item {\bf calcAuto}.- Para esta tercer función es básicamente similar a la anterior, con la diferencia de que no recibe ningún argumento, ya que en este caso la "n" se calcula por si sola, este cálculo se realiza mediante una función de la libreria "random" (Se debe importar esta libreria), la cual es randint, esta función recibe dos argumentos, los cuales son el rango que puede tener n, algo asi como su dominio, para el caso de esta práctica lo definimos como: {\bf randint(1,1000)}.
+ 		Además en este caso la cadena preeviamente generada por el programa, se guardará en el archivo "SalidaAuto.txt", calculando los 1s de la cadena como en la función anterior.
+ 		\centering
+ 		\includegraphics[width = 10cm]{funCalcAuto.jpg} 		
+
+ 		
+ 		\item {\bf grafica}.- Finalmente, esta función lo que realiza es la graficación de la cantidad de 1s en la cadena seleccionada ya sea mediante el cálculo manual o automático. Recibe 2 argumentos que son la cantidad de 1s preeviamente contados en cada función ya sea {\bf calcManual} ó {\bf calcAuto}. Estos 1s se contarón respecto al número total de 1s y 0s dentro de la cadena que sería el segundo argumento que recibiria esta función. Todo esto se realizó con la función {\bf count}, para su cálculo correcto. 		
+ 		\centering
+ 		\includegraphics[width = 10cm]{funGrafica.jpg}	
+
+ 		\vspace{2cm}
+ 	\end{enumerate}
+ 	
+	\section*{Capturas del Funcionamiento}
+	Para comprobar el funcionamiento de este programa, específicamente se tomó en cuenta un {\it n=25}, en esta sección se encuentran las capturas de panatalla de su funcionamiento, tanto en su cálculo como la gráfica que indica la cantidad de 1s con repecto al total de caracteres.
+	Desafortunadamente, la computadora con la que cuento actualmente no tiene los recursos necesarios para correr el programa con un {\it n=25}. Intenté correr este programa, en algun servicio de nube pero no fue posible ya que en todas las veces que lo intentaba, me aparecia un error de Memoria. El límite o mejor dicho el número más alto que me permitió correrlo sin problema alguno, fue con un n = 22, este proceso se cronometro y tardó alrededor de 5 minutos y medio en completarse, tanto la escritura, como la graficación de la cantidad total de 1s en la cadena. Se adjuntan las capturas de pantalla a continuación.
+	\vspace{2.5cm}	
+		\centering
+		\includegraphics[width = 10cm]{capt1.jpg}
+		\includegraphics[width = 8cm]{grafica.jpg}
+	\vspace{1cm}	
+		\includegraphics[width = 10cm]{captauto.jpg}
+		\includegraphics[width = 10cm]{grafauto.jpg}
+	
+		\includegraphics[width = 10cm]{fin.jpg}
+		
+	
+	
+	\section*{Código}
+	En esta sección se encuentran anexadas capturas del código completo del programa.
+			
+		\includegraphics[width = 10cm]{codpart1.jpg}	
+		\includegraphics[width = 10cm]{codpart2.jpg}				
+		\includegraphics[width = 10cm]{codpart3.jpg}
+	
+	
+\end{document}

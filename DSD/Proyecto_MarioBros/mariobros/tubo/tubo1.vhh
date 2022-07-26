@@ -1,0 +1,7 @@
+ENTITY tubo1 IS
+    PORT (
+	clk : in std_logic  ; 
+	reset : in std_logic  ; 
+	q : inout std_logic_vector (6 downto 0)
+    ) ;
+END tubo1 ;

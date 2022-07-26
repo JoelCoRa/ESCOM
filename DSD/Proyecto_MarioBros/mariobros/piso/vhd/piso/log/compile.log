@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: \\VBOXSVR\escom\4to semestre\FFD\mariobros\piso\vhd\piso.vhd
+ Compile Entity "piso"
+ Compile Architecture "DSMB" of Entity "piso"
+ Top-Level unit detected
+ Entity  =>   piso
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

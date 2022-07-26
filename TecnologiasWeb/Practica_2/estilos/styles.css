@@ -1,0 +1,334 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #bfe1e2;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #e6240a;
+    margin: 10px 10px;
+}
+nav{
+    font-family: 'Courier New', Courier, monospace;
+                
+}
+nav ul{
+    width: 50%;      
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;     
+}
+nav li{
+    text-align: center;    
+}
+
+p{
+    text-align: left;
+    margin: 10px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;  
+    font-size: 25px; 
+    text-align: center;        
+}
+q{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+li{
+    list-style: none;
+    margin-bottom: 10px; 
+    text-align: left; 
+}
+a:hover{
+    background-color: #a809a8;
+    color: aliceblue;
+    transition: all 500ms ease-in-out;
+}
+
+h2{
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    color: rgb(20, 20, 128);
+    text-align: center;    
+}
+
+h3{
+    font-size: 32px;
+    font-family: sans-serif;       
+    margin: 20px;
+}
+h4{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #8a098a;
+    font-weight: bold;
+    margin: 15px;
+    margin-bottom: 0px;
+}
+h5{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 0 auto;
+    text-align: center; 
+}
+span{
+    font-size: 15px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    color: red;
+}
+img{
+    max-width: 20%;
+    max-height: 400px;
+}
+
+.division{
+    margin-top: 30px;
+    border: 1px dashed #000000;       
+}
+#fantasia{
+    border: 5px solid green;
+    background-color: rgb(228, 142, 13);
+    width: 92%;
+    margin: 30px auto;
+    padding-bottom: 30px;
+}
+#fantasia h2{
+    color: rgb(38, 116, 8);
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+.titulo-fant{
+    color: rgb(38, 116, 8);
+    font-family: 'Inconsolata', monospace;
+}
+#ciencia-ficcion{
+    border: 5px solid green;
+    background-color: rgb(50, 226, 59);
+    width: 92%;
+    margin: 30px auto;
+    padding-bottom: 30px;
+}
+#ciencia-ficcion h2{
+    color: rgb(150, 5, 179);
+    font-family: 'Bebas Neue', cursive;
+}
+.titulo-cf{
+    color: rgb(150, 5, 179);
+    font-family: 'Bebas Neue', cursive;
+}
+#terror{
+    border: 5px solid green;
+    background-color: rgb(126, 28, 21);
+    width: 92%;
+    margin: 30px auto;
+    padding-bottom: 30px;
+}
+#terror h2{
+    color: rgb(12, 25, 82);
+    font-family: 'Lobster', cursive;
+}
+.titulo-terr{
+    color: rgb(12, 25, 82);
+    font-family: 'Lobster', cursive;
+}
+
+/* Aqui empieza lo del autor*/
+.info-libro{
+    border: 5px solid;       
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+    background-color: #2dbed8;  
+}
+
+.foto-libro{
+    border: 5px solid grey;
+    border-radius: 10%;
+    margin: 60px;
+    max-height: 250px;
+}
+.autor{
+    border: 1px solid #000000;
+    width: 30%;
+    margin: 80px 10px;    
+    text-align: center;    
+    background-color: #bfd851;
+    height: 20%;
+}
+.nacionalidad{
+    display: flex;
+    justify-content: center;    
+}
+.nacionalidad img{
+    width: 50px;
+    height: 30px;    
+    margin-right: 20px;
+}
+.nombre-autor{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;    
+}
+
+.añosVida{
+    font-size: 25px;
+    color: rgb(13, 11, 156);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.img-autores{    
+    border-radius: 50%;  
+    border: 3px solid yellow; 
+    margin: 60px 10px;     
+    max-height: 250px;
+}   
+.cont-autores{    
+    border: 5px solid #e41f05;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #2dbed8;    
+    display: flex;      
+    justify-content: space-evenly;  
+}
+.premios{
+    border: 1px solid #000000;
+    width: 40%;
+    margin: 10px;    
+    text-align: center;
+    font-size: 20px; 
+    background-color: #51c741;  
+}
+.otras-obras{
+    border: 1px solid #000000;
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #5dc250;
+}
+.info-extra{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+/* Hasta aqui llega lo del autor*/
+
+/* Aqui empieza lo de personajes*/
+.cont-personajes{    
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 5px solid #1c1ca7; 
+    display: flex;
+    justify-content: space-between; 
+    background-color: rgb(236, 154, 95);  
+}
+.sub{
+    width: 50%;
+    margin:0 auto;  
+    margin-top: 20px;
+    text-align: center;
+}
+.personaje-ind{
+    /* border:1px solid orange; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.img-personaje{
+    width: 25%;   
+    margin: 10px;
+}
+.pers-Principal{
+    border: 2px solid #0e0303;
+    width: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: rgb(22, 163, 163);
+    margin: 30px;
+    padding-top: 15px;
+    background-color: #e4ee5d;
+}
+.princi{
+    color: orangered;
+    font-family: monospace;
+    font-size: 20px;
+}
+.pers-Secun{
+    border: 2px solid #0e0303;
+    width: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(22, 163, 163);
+    margin: 30px;   
+    padding-top: 15px;
+    background-color: #5bf181; 
+}
+.secun{
+    color: rgb(18, 20, 134);
+    font-family: monospace;
+    font-size: 20px;
+}
+.pers-Antagon{
+    border: 2px solid #0e0303;
+    width: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(22, 163, 163);
+    margin: 30px;
+    padding-top: 15px;
+    background-color: #e74351; 
+} 
+.antagon{
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 20px;
+}
+/* Hasta aqui llega lo de personajes*/
+
+/* Aqui empieza lo de la trama*/
+.cont-trama{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 5px solid #25a714; 
+}
+.trama{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Hasta aqui llega lo de la trama*/
+footer{
+    background-color: #000000;
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.frame{
+    margin-top: 20px;
+    width: 100%;
+    height: 1000px;    
+}

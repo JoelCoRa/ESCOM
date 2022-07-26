@@ -1,0 +1,99 @@
+
+
+.body-prac3{
+    width: 95%;
+    /* border: 2px solid rgb(0, 0, 0); */
+    margin: 0 auto;
+    background-color: rgb(224, 139, 136);    
+}
+.titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(15, 12, 56);
+    text-align: center;
+    font-weight: bold;
+}
+.cont-tabla{    
+    width: 100%;
+    /* border: 2px solid #FF0000; */
+    margin: 0 auto;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;    
+}
+th,td{
+    border: 2px solid #000000;
+    padding: 10px;
+}
+thead{
+    background-color: #1355a1;
+    border-bottom: 5px solid #000000;
+}
+th span{
+    font-size: 12px;
+    color: rgb(9, 36, 12);
+    font-style: italic;
+}
+.cabecera{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;    
+}
+.artista{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(31, 31, 92);
+    font-size: 12px;      
+    font-weight: bold; 
+}
+.album{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(15, 80, 15);   
+    font-size: 12px;
+    font-weight: bold;
+    width: 40%;    
+}
+.cancion{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: rgb(121, 27, 27);
+    text-align: center;
+}
+.compositor{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    font-weight: bold;
+}
+.genero{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(4, 22, 126);
+    font-size: 12px;
+    font-weight: bold;
+}
+.dur{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(201, 80, 10);
+    font-weight: bold;
+    font-size: 12px;
+}
+.epoca{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.premio{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 15px;  
+    margin: 0;  
+}
+.imagen-disco{
+    height:30px;
+}
+.foto-portada{
+    width: 100%;
+}
+td a{
+    font-size: 10px;
+}
+

@@ -1,0 +1,40 @@
+**Este es el archivo de txt donde se encuentra la construcción del Palindrom**
+
+La longitud del Palindrome es: 65
+Construyendo Palindrome...
+P
+Se aplico la regla de producción 5: (P -> 1P1)  1P1
+Se aplico la regla de producción 4: (P -> 0P0)  01P10
+Se aplico la regla de producción 5: (P -> 1P1)  101P101
+Se aplico la regla de producción 4: (P -> 0P0)  0101P1010
+Se aplico la regla de producción 4: (P -> 0P0)  00101P10100
+Se aplico la regla de producción 5: (P -> 1P1)  100101P101001
+Se aplico la regla de producción 5: (P -> 1P1)  1100101P1010011
+Se aplico la regla de producción 4: (P -> 0P0)  01100101P10100110
+Se aplico la regla de producción 5: (P -> 1P1)  101100101P101001101
+Se aplico la regla de producción 5: (P -> 1P1)  1101100101P1010011011
+Se aplico la regla de producción 5: (P -> 1P1)  11101100101P10100110111
+Se aplico la regla de producción 4: (P -> 0P0)  011101100101P101001101110
+Se aplico la regla de producción 4: (P -> 0P0)  0011101100101P1010011011100
+Se aplico la regla de producción 4: (P -> 0P0)  00011101100101P10100110111000
+Se aplico la regla de producción 5: (P -> 1P1)  100011101100101P101001101110001
+Se aplico la regla de producción 4: (P -> 0P0)  0100011101100101P1010011011100010
+Se aplico la regla de producción 4: (P -> 0P0)  00100011101100101P10100110111000100
+Se aplico la regla de producción 4: (P -> 0P0)  000100011101100101P101001101110001000
+Se aplico la regla de producción 5: (P -> 1P1)  1000100011101100101P1010011011100010001
+Se aplico la regla de producción 4: (P -> 0P0)  01000100011101100101P10100110111000100010
+Se aplico la regla de producción 5: (P -> 1P1)  101000100011101100101P101001101110001000101
+Se aplico la regla de producción 5: (P -> 1P1)  1101000100011101100101P1010011011100010001011
+Se aplico la regla de producción 5: (P -> 1P1)  11101000100011101100101P10100110111000100010111
+Se aplico la regla de producción 5: (P -> 1P1)  111101000100011101100101P101001101110001000101111
+Se aplico la regla de producción 5: (P -> 1P1)  1111101000100011101100101P1010011011100010001011111
+Se aplico la regla de producción 4: (P -> 0P0)  01111101000100011101100101P10100110111000100010111110
+Se aplico la regla de producción 4: (P -> 0P0)  001111101000100011101100101P101001101110001000101111100
+Se aplico la regla de producción 5: (P -> 1P1)  1001111101000100011101100101P1010011011100010001011111001
+Se aplico la regla de producción 5: (P -> 1P1)  11001111101000100011101100101P10100110111000100010111110011
+Se aplico la regla de producción 4: (P -> 0P0)  011001111101000100011101100101P101001101110001000101111100110
+Se aplico la regla de producción 4: (P -> 0P0)  0011001111101000100011101100101P1010011011100010001011111001100
+Se aplico la regla de producción 4: (P -> 0P0)  00011001111101000100011101100101P10100110111000100010111110011000
+Se aplica la regla de producción 2: (P -> 0)  ['00011001111101000100011101100101P10100110111000100010111110011000']
+
+El palindrome final generado es: 00001100111110100010001110110010P10100110111000100010111110011000

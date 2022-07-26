@@ -1,0 +1,8 @@
+[Project]
+Current config=GENERIC
+VCS=0
+modified=4
+[Configurations]
+GENERIC=piso
+[Files]
+/\\VBOXSVR\escom\4to semestre\FFD\mariobros\piso\vhd\piso.vhd=4, 1 30929668 2835601888, 0, , , ,

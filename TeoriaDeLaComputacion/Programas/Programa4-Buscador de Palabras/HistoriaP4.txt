@@ -1,0 +1,20 @@
+***Esto es la historia de todo el proceso del grafo***
+
+ { w }   q1  ---->  q2
+ { e }   q2  ---->  q3
+ { b }   q3  ---->  q4
+
+ { w }   q1  ---->  q2
+ { e }   q2  ---->  q3
+ { b }   q3  ---->  q4
+ { m }   q4  ---->  q13
+ { a }   q13  ---->  q14
+ { s }   q14  ---->  q15
+ { t }   q15  ---->  q16
+ { e }   q16  ---->  q17
+ { r }   q17  ---->  q18
+
+ { e }   q1  ---->  q23
+ { b }   q23  ---->  q24
+ { a }   q24  ---->  q25
+ { y }   q25  ---->  q26

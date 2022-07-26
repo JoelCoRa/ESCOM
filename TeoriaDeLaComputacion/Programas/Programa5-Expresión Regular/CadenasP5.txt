@@ -1,0 +1,134 @@
+
+Cadena 1.-
+1001010010e
+ 
+Cadena 2.-
+00010010100100
+ 
+Cadena 3.-
+0
+ 
+Cadena 4.-
+0
+ 
+Cadena 5.-
+1001010000
+ 
+Cadena 6.-
+0010001010e
+ 
+Cadena 7.-
+e
+ 
+Cadena 8.-
+100100010010e
+ 
+Cadena 9.-
+1
+ 
+Cadena 10.-
+000010000101
+ Las cadenas generadas son:
+['1001010010e', '00010010100100', '0', '0', '1001010000', '0010001010e', 'e', '100100010010e', '1', '000010000101']
+
+Se generan por 2 vez las cadenas.
+
+Cadena 1.-
+1
+ 
+Cadena 2.-
+e
+ 
+Cadena 3.-
+010100100
+ 
+Cadena 4.-
+0
+ 
+Cadena 5.-
+01010100
+ 
+Cadena 6.-
+101
+ 
+Cadena 7.-
+0
+ 
+Cadena 8.-
+1
+ 
+Cadena 9.-
+01001010100000
+ 
+Cadena 10.-
+e
+ Las cadenas generadas son:
+['1', 'e', '010100100', '0', '01010100', '101', '0', '1', '01001010100000', 'e']
+
+Se generan por 3 vez las cadenas.
+
+Cadena 1.-
+1
+ 
+Cadena 2.-
+101010000100
+ 
+Cadena 3.-
+001
+ 
+Cadena 4.-
+01000101
+ 
+Cadena 5.-
+1
+ 
+Cadena 6.-
+e
+ 
+Cadena 7.-
+1
+ 
+Cadena 8.-
+1010001001010001
+ 
+Cadena 9.-
+100100100101000
+ 
+Cadena 10.-
+1000e
+ Las cadenas generadas son:
+['1', '101010000100', '001', '01000101', '1', 'e', '1', '1010001001010001', '100100100101000', '1000e']
+
+Se generan por 4 vez las cadenas.
+
+Cadena 1.-
+100101
+ 
+Cadena 2.-
+e
+ 
+Cadena 3.-
+e
+ 
+Cadena 4.-
+10100101
+ 
+Cadena 5.-
+0
+ 
+Cadena 6.-
+100101000001
+ 
+Cadena 7.-
+1010001001001
+ 
+Cadena 8.-
+1
+ 
+Cadena 9.-
+0100101010000
+ 
+Cadena 10.-
+1
+ Las cadenas generadas son:
+['100101', 'e', 'e', '10100101', '0', '100101000001', '1010001001001', '1', '0100101010000', '1']

@@ -1,0 +1,340 @@
+
+Cadena 1.-
+   Kleene = n
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   Expresion Final Generada: 1001010010 
+   aux1 =  e
+
+Cadena 2.-
+   Kleene = n
+   aux0 = 0
+   aux0 = 0
+   aux0 = 0
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   Expresion Final Generada: 0001001010010 
+   aux1 =  0
+
+Cadena 3.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  0
+
+Cadena 4.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  0
+
+Cadena 5.-
+   Kleene = n
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   aux0 = 10
+   aux0 = 0
+   aux0 = 0
+   Expresion Final Generada: 100101000 
+   aux1 =  0
+
+Cadena 6.-
+   Kleene = n
+   aux0 = 0
+   aux0 = 0
+   aux0 = 10
+   aux0 = 0
+   aux0 = 0
+   aux0 = 10
+   aux0 = 10
+   Expresion Final Generada: 0010001010 
+   aux1 =  e
+
+Cadena 7.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  e
+
+Cadena 8.-
+   Kleene = n
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   aux0 = 0
+   aux0 = 0
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   Expresion Final Generada: 100100010010 
+   aux1 =  e
+
+Cadena 9.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  1
+
+Cadena 10.-
+   Kleene = n
+   aux0 = 0
+   aux0 = 0
+   aux0 = 0
+   aux0 = 0
+   aux0 = 10
+   aux0 = 0
+   aux0 = 0
+   aux0 = 0
+   aux0 = 10
+   Expresion Final Generada: 00001000010 
+   aux1 =  1
+
+Se generan por 2 vez las cadenas.
+
+
+Cadena 1.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  1
+
+Cadena 2.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  e
+
+Cadena 3.-
+   Kleene = n
+   aux0 = 0
+   aux0 = 10
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   Expresion Final Generada: 01010010 
+   aux1 =  0
+
+Cadena 4.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  0
+
+Cadena 5.-
+   Kleene = n
+   aux0 = 0
+   aux0 = 10
+   aux0 = 10
+   aux0 = 10
+   Expresion Final Generada: 0101010 
+   aux1 =  0
+
+Cadena 6.-
+   Kleene = n
+   aux0 = 10
+   Expresion Final Generada: 10 
+   aux1 =  1
+
+Cadena 7.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  0
+
+Cadena 8.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  1
+
+Cadena 9.-
+   Kleene = n
+   aux0 = 0
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   aux0 = 10
+   aux0 = 10
+   aux0 = 0
+   aux0 = 0
+   aux0 = 0
+   Expresion Final Generada: 0100101010000 
+   aux1 =  0
+
+Cadena 10.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  e
+
+Se generan por 3 vez las cadenas.
+
+
+Cadena 1.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  1
+
+Cadena 2.-
+   Kleene = n
+   aux0 = 10
+   aux0 = 10
+   aux0 = 10
+   aux0 = 0
+   aux0 = 0
+   aux0 = 0
+   aux0 = 10
+   Expresion Final Generada: 10101000010 
+   aux1 =  0
+
+Cadena 3.-
+   Kleene = n
+   aux0 = 0
+   aux0 = 0
+   Expresion Final Generada: 00 
+   aux1 =  1
+
+Cadena 4.-
+   Kleene = n
+   aux0 = 0
+   aux0 = 10
+   aux0 = 0
+   aux0 = 0
+   aux0 = 10
+   Expresion Final Generada: 0100010 
+   aux1 =  1
+
+Cadena 5.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  1
+
+Cadena 6.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  e
+
+Cadena 7.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  1
+
+Cadena 8.-
+   Kleene = n
+   aux0 = 10
+   aux0 = 10
+   aux0 = 0
+   aux0 = 0
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   aux0 = 10
+   aux0 = 0
+   aux0 = 0
+   Expresion Final Generada: 101000100101000 
+   aux1 =  1
+
+Cadena 9.-
+   Kleene = n
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   aux0 = 10
+   aux0 = 0
+   Expresion Final Generada: 10010010010100 
+   aux1 =  0
+
+Cadena 10.-
+   Kleene = n
+   aux0 = 10
+   aux0 = 0
+   aux0 = 0
+   Expresion Final Generada: 1000 
+   aux1 =  e
+
+Se generan por 4 vez las cadenas.
+
+
+Cadena 1.-
+   Kleene = n
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   Expresion Final Generada: 10010 
+   aux1 =  1
+
+Cadena 2.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  e
+
+Cadena 3.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  e
+
+Cadena 4.-
+   Kleene = n
+   aux0 = 10
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   Expresion Final Generada: 1010010 
+   aux1 =  1
+
+Cadena 5.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  0
+
+Cadena 6.-
+   Kleene = n
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   aux0 = 10
+   aux0 = 0
+   aux0 = 0
+   aux0 = 0
+   aux0 = 0
+   Expresion Final Generada: 10010100000 
+   aux1 =  1
+
+Cadena 7.-
+   Kleene = n
+   aux0 = 10
+   aux0 = 10
+   aux0 = 0
+   aux0 = 0
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   aux0 = 0
+   Expresion Final Generada: 101000100100 
+   aux1 =  1
+
+Cadena 8.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  1
+
+Cadena 9.-
+   Kleene = n
+   aux0 = 0
+   aux0 = 10
+   aux0 = 0
+   aux0 = 10
+   aux0 = 10
+   aux0 = 10
+   aux0 = 0
+   aux0 = 0
+   Expresion Final Generada: 010010101000 
+   aux1 =  0
+
+Cadena 10.-
+   Kleene = e
+   Expresion Final Generada:  
+   aux1 =  1
